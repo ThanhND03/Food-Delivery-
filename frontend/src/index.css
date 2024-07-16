@@ -1,0 +1,50 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/* Global Style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif; 
+    scroll-behavior: smooth;
+}
+
+:root {
+    --primary:#FF3B5C;
+    --bg-color:whitesmoke;
+    --text-color:#161823;
+    --white-color:#FFF;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    min-height: 100vh;
+    background-color: var(--bg-color);
+    font-size: 1.6rem;
+    text-rendering: optimizeSpeed;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.app {
+    width: 80%;
+    margin: 0 auto;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+

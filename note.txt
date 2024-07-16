@@ -1,0 +1,13 @@
+Cách dùng :
+1. Vào terminal của "backend" chạy " npm run server "
+2. Vào thêm terminal của "admin" chạy " npm run dev " sẽ được  http://localhost:5173/
+3. Vào thêm terminal của "frontend" chạy " npm run dev " sẽ được http://localhost:5174/
+
+** Lưu ý : Chạy theo trình tự trên để không lỗi
+
+Dùng card test tại " https://docs.stripe.com/testing " ( VISA ) để thanh toán
+
+// Quản lý 
+Google: duythanh345678@gmail.com "tài khoản những cái bên dưới" 
+1. Mongoo DB 
+2. key stripe " https://dashboard.stripe.com/test/apikeys " trong file .env of backend

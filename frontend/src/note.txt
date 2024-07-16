@@ -1,0 +1,3 @@
+* Có hai file assets :
++ assets_fe
++ assets_admin
